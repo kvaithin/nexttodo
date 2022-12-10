@@ -1,0 +1,25 @@
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    max-width: 80%;
+    padding: 50px;
+}
+
+.leftBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rightBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.highlight {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
